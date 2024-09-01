@@ -1,10 +1,15 @@
 @import url("styles/header.css");
+@import url("styles/#banner.css");
+@import url("styles/#carrossel.css");
 :root {
     --cor-de-fundo: #fda6d9;
-
     --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --rosa-linear-gradiant:linear-gradiant(97.54deg, #c73bb4 35.49%, #f745ee 165.37%);
+    --fonte-principal: "Poppins";
+
 }
 
-body{
+body {
     background-color: var(--cor-de-fundo);
 }
